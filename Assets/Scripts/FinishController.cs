@@ -17,7 +17,6 @@ public class FinishController : MonoBehaviour
 
     public static void onFail()
     {
-        Debug.Log("Game Over");
         PlayerBehaviour.Instance.StopPlayer();
         PlayerBehaviour.Instance.FailAnimation();
 
